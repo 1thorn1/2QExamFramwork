@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GeometryRender">
+      <UniqueIdentifier>{2b0522a9-a0d4-4bf3-a664-4c646c1cd510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{e385105c-70fc-44a2-89ea-17479c5a596f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{bee5bcac-87dc-4b03-8a1f-37a4c140cd35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestMain">
+      <UniqueIdentifier>{c6e46e2d-8524-497d-8349-da223a7a0899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{645e482d-2449-41de-b420-ed9adb92b0be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tempate">
+      <UniqueIdentifier>{b7ad5406-2dfa-4251-a649-ccdffe3e9bc3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryRender.h">
+      <Filter>GeometryRender</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseWindow.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMathHelper.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform2D.h">
+      <Filter>GeometryRender</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>TestMain</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryObject.h">
+      <Filter>GeometryRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>Tempate</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeometryRender.cpp">
+      <Filter>GeometryRender</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseWindow.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeSystem.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform2D.cpp">
+      <Filter>GeometryRender</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryObject.cpp">
+      <Filter>GeometryRender</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>TestMain</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMathHelper.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MathStudyProject.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="MathStudyProject.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,30 @@
+
+bool CheckOBB(const std::vector<Vector2>& A, const std::vector<Vector2>& B)
+{
+	FOR (i = 0; i < A.Size(); i++)
+	{
+		Vector2 current = A[i];
+		Vector2 next = A[i+1];
+
+		1. Vector2 edge 를 구합니다.
+		2. Vector2 axis 를 구합니다. edge 의 노멀 벡터를 말합니다.
+
+		FOR (const auto v : A)
+		{
+			3. 각 v와 axis 를 내적합니다. ( 축에 투영)
+			4. minA 값과 maxA 값을 구합니다.
+		}
+
+		5FOR (const auto v : B)
+		{
+			5. 각 v와 axis 를 내적합니다. ( 축에 투영)
+			6. minB 값과 maxB 값을 구합니다.
+		}
+
+		7. maxA, minB, maxB, minA 를 비교하여 분리축이 발견되면 리턴 false
+
+		분리축이 발견되지 않으면 리턴 true
+
+	}
+}
+
